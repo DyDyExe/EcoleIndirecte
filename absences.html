@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="/style.css">
+	<meta charset="UTF-8">
+	<title>Absences</title>
+	<style>
+		body {
+			background-color: #F5F5F5;
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+
+		.header {
+			background-color: #1F1F1F;
+			color: white;
+			display: flex;
+			align-items: center;
+			height: 80px;
+			padding: 0 20px;
+		}
+
+		h1 {
+			margin: 0;
+			font-size: 24px;
+		}
+
+		.container {
+			margin: 20px;
+			padding: 20px;
+			background-color: white;
+			border-radius: 5px;
+		}
+
+		table {
+			border-collapse: collapse;
+			width: 100%;
+		}
+
+		th, td {
+			padding: 10px;
+			text-align: left;
+			border-bottom: 1px solid #ddd;
+		}
+
+		th {
+			background-color: #1F1F1F;
+			color: white;
+			font-size: 16px;
+		}
+	</style>
+</head>
+<body>
+    <nav>
+    <ul>
+      <li><a href="/index.html">Accueil</a></li>
+      <li><a href="/note.html">Notes</a></li>
+      <li><a href="/absences.html">Absences</a></li>
+      <li><a href="#">Messages</a></li>
+      <li><a href="#">Agenda</a></li>
+    </ul>
+  </nav>
+	<div class="header">
+		<h1>Absences</h1>
+	</div>
+
+	<div class="container">
+		<table>
+			<thead>
+				<tr>
+					<th>Matière</th>
+					<th>Date</th>
+					<th>Motif</th>
+					<th>Justifiée</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Mathématiques</td>
+					<td>02/09/2022</td>
+					<td>Maladie</td>
+					<td>Non</td>
+				</tr>
+				<tr>
+					<td>Physique-Chimie</td>
+					<td>03/09/2022</td>
+					<td>Raison personnelle</td>
+					<td>Oui</td>
+				</tr>
+				<tr>
+					<td>Histoire-Géographie</td>
+					<td>05/09/2022</td>
+					<td>Décès dans la famille</td>
+					<td>Oui</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>
